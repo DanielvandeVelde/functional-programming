@@ -65,7 +65,7 @@ pubYear (2010)
 pubYearRange (2010)
 ```
 
-Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) als parameters te zetten achter je query: ```facet=language(dut)``` . Het is ook mogelijk om hier meerdere van te gebruiken door ze achter elkaar te zetten zoals: ```&facet=type(movie)&facet=language(ita)```.
+Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) als parameters te zetten achter je query: ```facet=language(dut)``` . Het is ook mogelijk om hier meerdere van te gebruiken door ze achter elkaar te zetten zoals: ```&facet=type(movie)&facet=language(ita)```. Zorg dan wel dat refine=true is! Anders werkt deze mogelijk niet goed.
 
 #### Librarian
 Wanneer de parameter librarian op true staat krijg je deze informatie iets overzichtelijker in elementen gezet.
