@@ -59,19 +59,229 @@ target-audiences (doelgroep)
 
 ### Parameters 
 #### Refine
-Wanneer refine=true word meegegeven dan krijg je onderaan ook de volgende facetten mee:
+Wanneer refine=true word meegegeven dan krijg je onderaan ook de volgende facetten mee.
+Ze staan hieronder met daarbij hun mogelijke waarde(s)
 
-```
-Activiteiten (nextweek/nextmonth)
-Type (book/dvd/movie/sheetmusic)
-Doelgroep (ageYouth/ageAdults/ageYoungAdults)
-Auteur (Annie M.G. Schmidt/Dick Bruna)
-Genre (thriller/science-fiction)
-Topic (Nederland/geschiedenis/Amsterdam)
-Language (dut/eng/mul)
-pubYear (2010)
-pubYearRange (2010)
-```
+<details><summary>Activiteiten</summary>
+  
+  ```
+  thisweek
+  nextweek
+  thismonth
+  next3month
+  thisyear
+  nextyear
+  ```
+  
+</details>
+
+<details><summary>Type</summary>
+  
+  ```
+  Activiteiten
+  Audiovisual
+  sheetmusic
+  book
+  bookwithcassette
+  bookwithcd
+  cassette
+  cd
+  cdrom
+  computerfile
+  Cursus
+  daisyrom
+  dvdvideo
+  ebook
+  movie
+  photo
+  largetype
+  kit
+  audiobook
+  website
+  schooltv
+  magazine
+  excerpt
+  video
+  ```
+  
+</details>
+
+<details><summary>Doelgroep</summary>
+  
+  ```
+  ageYouth
+  ageAdults
+  ageYoungAdults
+  ```
+  
+</details>
+
+<details><summary>Auteur</summary>
+  
+  ```
+  Annie M.G. Schmidt
+  etc.
+  ```
+  
+</details>
+
+<details><summary>Genre</summary>
+  
+  ```
+  avonturenroman
+  bijbels-verhaal
+  biografie
+  detective
+  dieren
+  doktersverhaal
+  erotiek
+  experimentele-roman
+  familieroman
+  feministisch-verhaal
+  homofiel-thema
+  humor
+  indisch-milieu
+  islamitisch-milieu
+  joods-milieu
+  kinderleven
+  oorlog-en-verzet
+  paarden-pony's
+  politieke-roman
+  protestants-milieu
+  psychologisch-verhaal
+  racisme
+  romantisch-verhaal
+  school
+  schience-fiction
+  racisme
+  romantisch-verhaal
+  school
+  science-fiction
+  sociaal-politiek-verhaal
+  spionage
+  sport
+  sprookjes
+  streek-boeren-verhaal
+  stripverhaal
+  thriller
+  verhalenbundel
+  western
+  zeeverhaal
+  ```
+  
+</details>
+  
+<details><summary>Topic</summary>
+  
+  ```
+  100+
+  ```
+  
+</details>
+
+<details><summary>Language</summary>
+  
+  ```
+  dut
+  eng
+  ger
+  fre
+  spa
+  ara
+  tur
+  ita
+  mul
+  per
+  fri
+  rus
+  swe
+  dan
+  por
+  afr
+  lat
+  grc
+  nor
+  jpn
+  hun
+  bah
+  chi
+  pol
+  heb
+  cat
+  fin
+  cze
+  pap
+  gre
+  rum
+  ser
+  slv
+  mis
+  dum
+  ind
+  esp
+  scr
+  baq
+  cro
+  ice
+  urd
+  bul
+  ben
+  kor
+  kur
+  tha
+  hin
+  SRN
+  fas
+  gmh
+  tir
+  phi
+  ira
+  roh
+  mlt
+  gem
+  san
+  lan
+  bre
+  gae
+  mrc
+  tuk
+  mao
+  wel
+  geo
+  fro
+  cam
+  mac
+  alb
+  vie
+  lav
+  pus
+  chv
+  ```
+  
+</details>
+
+<details><summary>pubYear</summary>
+  
+  ```
+  2018
+  2017
+  etc.
+  ```
+  
+</details>
+
+<details><summary>pubYearRange</summary>
+  
+  ```
+  2010
+  2000
+  1990
+  1980
+  1970
+  OlderThan50
+  ```
+  
+</details>
 
 Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) als parameters te zetten achter je query: ```facet=language(dut)``` . Het is ook mogelijk om hier meerdere van te gebruiken door ze achter elkaar te zetten zoals: ```&facet=type(movie)&facet=language(ita)```. Zorg dan wel dat refine=true! Anders werken deze dubbele facets niet.
 
