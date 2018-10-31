@@ -171,10 +171,109 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   
 </details>
   
-<details><summary>Topic</summary>
+<details><summary>Topic (Meest populaire (660+ hits minimaal), misschien voeg ik ze later allemaal toe)</summary>
   
   ```
-  100+
+  Geschiedenis
+  Nederland
+  Verhalen
+  Opstellen
+  Biografieën
+  Reisgidsen
+  Tentoonstellingscatalogi
+  Vriendschap
+  Fotoboeken 
+  19e eeuw
+  Wereldoorlog II
+  20e eeuw
+  Metamorfoze Collectie Oude Kinderboeken
+  Dieren
+  Verenigde Staten
+  Amsterdam 
+  Verliefdheid
+  Schoolleven
+  Bouwkunst
+  Reisbeschrijvingen
+  Cultuurgeschiedenis
+  Gedichten
+  Gezin
+  Europa
+  17e eeuw
+  Kinderen 
+  Sprookjesfiguren
+  Frankrijk 
+  18e eeuw
+  Catalogi
+  Rouwproces
+  Vrouwen
+  Duitsland
+  Beeldende kunst
+  Engeland
+  Schilderkunst
+  Woordenboeken 
+  Middeleeuwen
+  Muziek
+  Rijmvertellingen
+  Nederlandse taal
+  Dagboeken
+  Levenskunst
+  Brieven
+  België
+  Muziekgeschiedenis
+  Groot-Brittannië 
+  China
+  Encyclopedieën
+  Wandeltochten
+  Kerstmis
+  Metamorfoze Collectie Tentoonstellingscatalogi
+  Honden
+  Liefde
+  Filosofie
+  Dood
+  16e eeuw
+  Autobiografieen
+  Nederlands Oost-Indië
+  Pesten
+  Identiteit
+  Vrouwenleven
+  Italië
+  Voetbal
+  Eenzaamheid
+  Jodenvervolging
+  Gidsen
+  Anders zijn
+  Angsten
+  Zelfverwerkelijking
+  Interviews
+  Kunstgeschiedenis
+  Katten
+  Verenigde Staten van Amerika
+  Beweegbare boeken
+  Magie 
+  Kritiek
+  Reizen
+  AF
+  Indonesië
+  Memoires
+  Japan
+  Politieke geschiedenis
+  Handenarbeid
+  Vlaanderen
+  Kookboeken
+  Basisonderwijs
+  heksen 
+  Wereldoorlog I
+  Cultuurverschillen
+  Homoseksualiteit
+  Bibliografieën
+  Grootouders
+  Meertalige boeken
+  India
+  Spiritualiteit
+  Suriname 
+  Rusland 
+  Indianen 
+  Letterkunde
   ```
   
 </details>
@@ -282,6 +381,7 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   ```
   
 </details>
+
 
 Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) als parameters te zetten achter je query: ```facet=language(dut)``` . Het is ook mogelijk om hier meerdere van te gebruiken door ze achter elkaar te zetten zoals: ```&facet=type(movie)&facet=language(ita)```. Zorg dan wel dat refine=true! Anders werken deze dubbele facets niet.
 
