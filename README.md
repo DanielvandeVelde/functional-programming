@@ -8,7 +8,8 @@ Dit is m'n eigen cheatsheet, maak er gebruik van enzo. Slack me als er wat mist/
 Dit kan met zoekwoorden, maar ook met de opties in het hoofdstuk index besproken worden.
 Als je zoekt op "L" zoekt deze ook enkel naar een los staande "L" en niet alle woorden met de letter "L".
 
-Wanneer zoekt krijg je maximaal 20 resultaten. Dit is kleiner te maken door currentpage=5 en verder in te bladeren door page=2 of page=3 door te geven.
+Wanneer je zoekt krijg je maximaal 20 resultaten. 
+Dit is kleiner te maken door  bv ```pagesize=5``` en verder in te bladeren door ```page=2``` door te geven.
 
 Als je zoekt krijg je ongeveer deze informatie:
 
