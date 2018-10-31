@@ -59,7 +59,7 @@ target-audiences (doelgroep)
 
 ### Parameters 
 #### Refine
-Wanneer refine=true word meegegeven dan krijg je onderaan ook de volgende facetten mee.
+Wanneer refine=true word meegegeven dan krijg je naast je results ook de volgende facets met hun count(aantal dat ze voorkomen) mee.
 Ze staan hieronder met daarbij hun mogelijke waarde(s)
 
 <details><summary>Activiteiten</summary>
@@ -171,7 +171,7 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   
 </details>
   
-<details><summary>Topic (Meest populaire (660+ hits minimaal), misschien voeg ik ze later allemaal toe)</summary>
+<details><summary>Topic (100 meest populaire)</summary>
   
   ```
   Geschiedenis
@@ -401,12 +401,13 @@ Details zijn op te vragen door het endpoint details te gebruiken.
 Voor de parameter ID kan je het id meegeven die ziet er bijvoorbeeld zo uit:
 ```id=|oba-catalogus|1161779``` Dit kan natuurlijk ook door ipv het ID de FRABL mee te geven zoals ```frabl=17BD72D249F360A0```
 In de details zie je meer informatie over het boek zowel als de verschillende locaties waar dit boek beschikbaar is.
+Met behulp van het endpoint resolver kan je met behulp van het isbn e.d. ook de frabl of native-id ophalen.
 
 ## refine
 
-Refine geeft terug wat je ook via refine=true kan meegeven.
-Door de rctx van je zoekopdracht op te geven bv ```rctx=ASXIQQ6CMBAAwC2ENIQHePDkxXijlvgeskBTVkqLa2v0F7zBhxqJXuYwAvIKJJxfE@FTc7zM41VPD2fVMjakm1xAOSN5yKGyHIz@K$SubwfTJTtgxDJyMls46hiZ0P9iTy2b@r4YXtCaQqsMYFWryj5rJk7vowCQoUMAONQcQqwd3RIN9XYysYPCO@EF```
-krijg je de counts en resultaten van de facets terug. Met behulp van het parameter count kan je dit lijstje uitbreiden bv door ```&count=20```
+Refine geeft terug wat je ook via het endpoint search met refine=true kan krijgen maar zonder de resultaten.
+Dit werkt door de rctx van je zoekopdracht op te geven bv: ```rctx=ASXIQQ6CMBAAwC2ENIQHePDkxXijlvgeskBTVkqLa2v0F7zBhxqJXuYwAvIKJJxfE@FTc7zM41VPD2fVMjakm1xAOSN5yKGyHIz@K$SubwfTJTtgxDJyMls46hiZ0P9iTy2b@r4YXtCaQqsMYFWryj5rJk7vowCQoUMAONQcQqwd3RIN9XYysYPCO@EF```
+Dan krijg je de counts en resultaten van de facets terug. Met behulp van het parameter count kan je dit lijstje uitbreiden bv door ```&count=100``` krijg je tot 100 auteurs/topics etc terug
 
 ## schema
 
@@ -423,7 +424,7 @@ Nog geen nut voor gevonden. Maar het kan je altijd helpen.
 
 ## index
 
-Geeft je de mogelijke waardes van deze search queries.
+Geeft je de mogelijke waardes om te filteren zonder zoekwoorden
 Dit kan in search worden gebruikt als bv ```language:dut``` om alle Nederlandstalige dingen in de api terug te krijgen.
 
 Voorbeeld link:
@@ -431,7 +432,7 @@ Voorbeeld link:
 Hier moet je auth nog achter natuurlijk.
 Volgens index zelf zijn op de plek van language andere geschikte waardes: ```author, awards, subjects, language, format, targetaudience, readinglevel, type, classification.```
 
-Deze komen op de plek van de x in de search/?q="x" en kunnen dus gebruikt worden in combinatie met facets.
+Deze komen op de plek van de x in de ```search/?q=x``` en kunnen dus gebruikt worden in combinatie met facets.
 
 ## availability
 
