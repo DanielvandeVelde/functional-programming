@@ -49,7 +49,9 @@ target-audiences (doelgroep)
   undup-info
 ```
 
-Wanneer refine=true word meegegeven dan krijg je onderaan ook de volgende facetten mee mee:
+### Parameters 
+#### Refine
+Wanneer refine=true word meegegeven dan krijg je onderaan ook de volgende facetten mee:
 
 ```
 Activiteiten (nextweek/nextmonth)
@@ -63,14 +65,17 @@ pubYear (2010)
 pubYearRange (2010)
 ```
 
-Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) als parameters te zetten achter je query: ```?facet=language(dut)``` 
+Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) als parameters te zetten achter je query: ```facet=language(dut)``` 
 
+#### Librarian
 Wanneer de parameter librarian op true staat krijg je deze informatie iets overzichtelijker in elementen gezet.
 Ook krijg je een datum en tijd mee van wanneer (denk ik) het boek in de bibliotheek is toegevoegd.
 
-Ook kan je ```sort=title``` gebruiken om bijvoorbeeld op titels te sorteren.
+#### Sort
+Je kan ```sort=title``` gebruiken om bijvoorbeeld op titels te sorteren.
 
-De undup informatie is waarschijnlijk voor de gelijknamige paramter die deze resultaten weghaalt
+#### Undup
+De undup informatie die je in de search meekrijgt is waarschijnlijk voor de gelijknamige parameter die de dubbele resultaten weghaalt. Undup haalt dus alle duplicaten weg.
 
 ## details
 
