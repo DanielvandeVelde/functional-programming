@@ -5,7 +5,12 @@ Dit is m'n eigen cheatsheet, maak er gebruik van enzo. Slack me als er wat mist/
 
 ## search
 
-Als je zoekt krijg je maximaal 20 resultaten. Die deze informatie doorgeven:
+Dit kan met zoekwoorden, maar ook met de opties in het hoofdstuk index besproken worden.
+Als je zoekt op "L" zoekt deze ook enkel naar een los staande "L" en niet alle woorden met de letter "L".
+
+Wanneer zoekt krijg je maximaal 20 resultaten. Dit is kleiner te maken door currentpage=5 en verder in te bladeren door page=2 of page=3 door te geven.
+
+Als je zoekt krijg je ongeveer deze informatie:
 
 ```
 id
@@ -65,7 +70,7 @@ pubYear (2010)
 pubYearRange (2010)
 ```
 
-Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) als parameters te zetten achter je query: ```facet=language(dut)``` . Het is ook mogelijk om hier meerdere van te gebruiken door ze achter elkaar te zetten zoals: ```&facet=type(movie)&facet=language(ita)```. Zorg dan wel dat refine=true is! Anders werkt deze mogelijk niet goed.
+Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) als parameters te zetten achter je query: ```facet=language(dut)``` . Het is ook mogelijk om hier meerdere van te gebruiken door ze achter elkaar te zetten zoals: ```&facet=type(movie)&facet=language(ita)```. Zorg dan wel dat refine=true! Anders werken deze dubbele facets niet.
 
 #### Librarian
 Wanneer de parameter librarian op true staat krijg je deze informatie iets overzichtelijker in elementen gezet.
@@ -109,7 +114,7 @@ Geeft je de mogelijke waardes van deze search queries.
 Dit kan in search worden gebruikt als bv ```language:dut``` om alle Nederlandstalige dingen in de api terug te krijgen.
 
 Voorbeeld link:
-https://zoeken.oba.nl/api/v1/index/language/
+```https://zoeken.oba.nl/api/v1/index/language/?pagesize=100```
 Hier moet je auth nog achter natuurlijk.
 Volgens index zelf zijn op de plek van language andere geschikte waardes: ```author, awards, subjects, language, format, targetaudience, readinglevel, type, classification.```
 
