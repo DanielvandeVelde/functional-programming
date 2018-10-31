@@ -8,20 +8,45 @@ Dit is m'n eigen cheatsheet, maak er gebruik van enzo. Slack me als er wat mist/
 Als je zoekt krijg je maximaal 20 resultaten. Die deze informatie doorgeven:
 
 ```
-ID & FRABL
-Coverimage
-Title (Hoof, kort en subtitel)
-Author (hoofd + overige auteurs)
-Format (book/movie)
-ISBN/PPN
-Publication (Jaar, uitgeverij, maand+jaartal, stad van uitgeverij?)
-Edition (aantal/hoeveelste drukken)
-Classification+SISO-Code (Plaatssugestie binnen bieb? soms nummer soms woord + nummer bv. Latijn 873)
-Language (Origineel en wanneer van toepassing vertaling)
-Description (pagina's, afmeting, etc)
-Summaries (samenvattingen)
-Notes (stukjes tekst als aantekening)
-Target-audience (doelgroep)
+id
+frabl
+detail-page
+coverimages
+  coverimage (meerdere aanwezig als meerdere covers zijn)
+titles (Hoof, kort en subtitel)
+  title (mogelijk meerdere)
+  short-title (mogelijk meerdere)
+  other-title
+authors (hoofd + overige auteurs)
+  main-author
+  author (mogelijk meerdere)
+formats (book/movie)
+  format
+identifiers
+  isbn-id
+  ppn-id
+publication (Jaar, uitgeverij, maand+jaartal, stad van uitgeverij?)
+  year
+  publishers
+    publisher
+    edition (niet altijd aanwezig?)
+classification
+  siso-code (Plaatssugestie binnen bieb? soms nummer soms woord + nummer bv. Latijn 873)
+languages (Origineel en wanneer van toepassing vertaling)
+  language
+subjects
+  topical-subject (meerdere)
+genres (alleen bij films?)
+  genre (meerdere)
+description (pagina's, afmeting, etc)
+  physical-description
+summaries (samenvattingen)
+  summary
+notes (stukjes tekst als aantekening)
+  note
+target-audiences (doelgroep)
+  target-audience
+  undup-info
 ```
 
 Wanneer refine=true word meegegeven dan krijg je onderaan ook de volgende facetten mee mee:
@@ -43,7 +68,9 @@ Dit zijn facets (te filteren door bijv: facet=type(book) of facet=language(dut) 
 Wanneer de parameter librarian op true staat krijg je deze informatie iets overzichtelijker in elementen gezet.
 Ook krijg je een datum en tijd mee van wanneer (denk ik) het boek in de bibliotheek is toegevoegd.
 
-Ook kan je ```sort=title``` gebruiken om bijvoorbeeld op titels te sorteren
+Ook kan je ```sort=title``` gebruiken om bijvoorbeeld op titels te sorteren.
+
+De undup informatie is waarschijnlijk voor de gelijknamige paramter die deze resultaten weghaalt
 
 ## details
 
