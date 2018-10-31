@@ -13,7 +13,7 @@ frabl
 detail-page
 coverimages
   coverimage (meerdere aanwezig als meerdere covers zijn)
-titles (Hoof, kort en subtitel)
+titles (Hoofd, kort en subtitel)
   title (mogelijk meerdere)
   short-title (mogelijk meerdere)
   other-title
@@ -125,6 +125,12 @@ Alle holdings zijn te vinden op:
 Dit kan je specificeren door van ```root``` bijvoorbeeld ```root/OBA/Centrale OBA``` te maken.
 Dit geeft je alle openingstijden, de locatie (lat en longitude)
 
-##resolver
+## resolver
+Dit geeft FRABL en Nativeid terug.
+Niet altijd een goed resultaat vanwege duplicates in het systeem.
+Accepteerd: 'isbn', 'issn', 'ppn', 'ean', 'frabl', 'nativeid'.
 
-Voor als je de ID/Frabl/PPN/ISBN/etc nodig heb.
+Met het isbn wat 9789025753801 is word dit dus:
+```https://zoeken.oba.nl/api/v1/resolver/isbn/?id=9789025753801```
+of met het FRABL
+```https://zoeken.oba.nl/api/v1/resolver/frabl/?id=17BD72D249F360A0```
