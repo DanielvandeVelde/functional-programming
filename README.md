@@ -1,7 +1,9 @@
 # Readme
-
-De verschillende endpoints enzo.
 Dit is m'n eigen cheatsheet, maak er gebruik van enzo. Slack me als er wat mist/incorrect is.
+
+Kleine uitleg over de verschillende endpoints, hoe je ze bereikt en wat ze weergeven.
+Voor de **echte** documentatie zie:
+https://zoeken.oba.nl/api/v1/
 
 ## search
 
