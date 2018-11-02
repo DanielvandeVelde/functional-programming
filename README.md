@@ -3,16 +3,16 @@
 Hoi. Dit is m'n readme.
 Per ongeluk in het Nederlands om een duidelijk cheatsheetje te maken wat duidelijker was voor iedereen.
 
-[Naar de cheatsheet/API uitleg](#cheatsheet)
+[Naar de cheatsheet/API uitleg](#cheatsheet)  
 [Naar het onderzoek](#onderzoek)
 
 # Cheatsheet
-Dit is m'n eigen cheatsheet, maak er gebruik van enzo.
+Dit is m'n eigen cheatsheet, maak er gebruik van enzo.  
 
-Kleine uitleg over de verschillende endpoints, hoe je ze bereikt en wat ze weergeven.
-Voor de **echte** documentatie zie:
-https://zoeken.oba.nl/api/v1/
-of het excel-sheetje in het Tech-track Slack kanaal!
+Kleine uitleg over de verschillende endpoints, hoe je ze bereikt en wat ze weergeven.  
+Voor de **echte** documentatie zie:  
+https://zoeken.oba.nl/api/v1/  
+of het excel-sheetje in het Tech-track Slack kanaal!  
 
 ## search
 
