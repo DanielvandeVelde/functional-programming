@@ -1,16 +1,25 @@
 # Readme
-Dit is m'n eigen cheatsheet, maak er gebruik van enzo. Slack me als er wat mist/incorrect is.
+
+Hoi. Dit is m'n readme.
+Per ongeluk in het Nederlands om een duidelijk cheatsheetje te maken wat duidelijker was voor iedereen.
+
+[Naar de cheatsheet/API uitleg](#cheatsheet)
+[Naar het onderzoek](#onderzoek)
+
+# Cheatsheet
+Dit is m'n eigen cheatsheet, maak er gebruik van enzo.
 
 Kleine uitleg over de verschillende endpoints, hoe je ze bereikt en wat ze weergeven.
 Voor de **echte** documentatie zie:
 https://zoeken.oba.nl/api/v1/
+of het excel-sheetje in het Tech-track Slack kanaal!
 
 ## search
 
 Dit kan met zoekwoorden, maar ook met de opties in het hoofdstuk index besproken worden.
 Als je zoekt op "L" zoekt deze ook enkel naar een los staande "L" en niet alle woorden met de letter "L".
 
-Wanneer je zoekt krijg je maximaal 20 resultaten. 
+Wanneer je zoekt krijg je maximaal 20 resultaten.
 Dit is kleiner te maken door  bv ```pagesize=5``` en verder in te bladeren door ```page=2``` door te geven.
 
 Als je zoekt krijg je ongeveer deze informatie:
@@ -57,13 +66,13 @@ target-audiences (doelgroep)
   undup-info
 ```
 
-### Parameters 
+### Parameters
 #### Refine
 Wanneer refine=true word meegegeven dan krijg je naast je results ook de volgende facets met hun count(aantal dat ze voorkomen) mee.
 Ze staan hieronder met daarbij hun mogelijke waarde(s)
 
 <details><summary>Activiteiten</summary>
-  
+
   ```
   thisweek
   nextweek
@@ -72,11 +81,11 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   thisyear
   nextyear
   ```
-  
+
 </details>
 
 <details><summary>Type</summary>
-  
+
   ```
   Activiteiten
   Audiovisual
@@ -103,30 +112,30 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   excerpt
   video
   ```
-  
+
 </details>
 
 <details><summary>Doelgroep</summary>
-  
+
   ```
   ageYouth
   ageAdults
   ageYoungAdults
   ```
-  
+
 </details>
 
 <details><summary>Auteur</summary>
-  
+
   ```
   Annie M.G. Schmidt
   etc.
   ```
-  
+
 </details>
 
 <details><summary>Genre</summary>
-  
+
   ```
   avonturenroman
   bijbels-verhaal
@@ -168,11 +177,11 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   western
   zeeverhaal
   ```
-  
+
 </details>
-  
+
 <details><summary>Topic (100 meest populaire)</summary>
-  
+
   ```
   Geschiedenis
   Nederland
@@ -182,14 +191,14 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   Reisgidsen
   Tentoonstellingscatalogi
   Vriendschap
-  Fotoboeken 
+  Fotoboeken
   19e eeuw
   Wereldoorlog II
   20e eeuw
   Metamorfoze Collectie Oude Kinderboeken
   Dieren
   Verenigde Staten
-  Amsterdam 
+  Amsterdam
   Verliefdheid
   Schoolleven
   Bouwkunst
@@ -199,9 +208,9 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   Gezin
   Europa
   17e eeuw
-  Kinderen 
+  Kinderen
   Sprookjesfiguren
-  Frankrijk 
+  Frankrijk
   18e eeuw
   Catalogi
   Rouwproces
@@ -210,7 +219,7 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   Beeldende kunst
   Engeland
   Schilderkunst
-  Woordenboeken 
+  Woordenboeken
   Middeleeuwen
   Muziek
   Rijmvertellingen
@@ -220,7 +229,7 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   Brieven
   België
   Muziekgeschiedenis
-  Groot-Brittannië 
+  Groot-Brittannië
   China
   Encyclopedieën
   Wandeltochten
@@ -249,7 +258,7 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   Katten
   Verenigde Staten van Amerika
   Beweegbare boeken
-  Magie 
+  Magie
   Kritiek
   Reizen
   AF
@@ -261,7 +270,7 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   Vlaanderen
   Kookboeken
   Basisonderwijs
-  heksen 
+  heksen
   Wereldoorlog I
   Cultuurverschillen
   Homoseksualiteit
@@ -270,16 +279,16 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   Meertalige boeken
   India
   Spiritualiteit
-  Suriname 
-  Rusland 
-  Indianen 
+  Suriname
+  Rusland
+  Indianen
   Letterkunde
   ```
-  
+
 </details>
 
 <details><summary>Language</summary>
-  
+
   ```
   dut
   eng
@@ -356,21 +365,21 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   pus
   chv
   ```
-  
+
 </details>
 
 <details><summary>pubYear</summary>
-  
+
   ```
   2018
   2017
   etc.
   ```
-  
+
 </details>
 
 <details><summary>pubYearRange</summary>
-  
+
   ```
   2010
   2000
@@ -379,7 +388,7 @@ Ze staan hieronder met daarbij hun mogelijke waarde(s)
   1970
   OlderThan50
   ```
-  
+
 </details>
 
 
@@ -458,3 +467,48 @@ Met het isbn wat 9789025753801 is word dit dus:
 ```https://zoeken.oba.nl/api/v1/resolver/isbn/?id=9789025753801```
 of met het FRABL
 ```https://zoeken.oba.nl/api/v1/resolver/frabl/?id=17BD72D249F360A0```
+
+**Einde!**
+
+# Onderzoek
+
+Zoals aan het cheatsheet te zien is heb ik aardig wat uurtjes de API onderzocht. Dit was erg leerzaam en zorgde er voor dat ik nu goed weet welke vraagstukken je mee kan sturen en welke data er op te vragen is.
+
+
+## onderzoeksvragen
+
+Aan de hand van deze data heb ik een aantal onderzoeksvragen opgesteld.
+
+* elke kleur wordt het meest gebruikt voor covers?
+  * Hoe verschilt dit bij films/boeken?
+  * Zijn er schrijvers met een voorkeur voor een kleur?
+  * Wat is de meest voorkomende kleur per genre?
+    * Kan je aan de hand van een kleur zeggen welk genre het is?
+* Welke schrijvers hebben de meeste boeken op specifieke OBA locaties?
+  * Als je de 'bekende' schrijvers weghaalt, welke schrijvers komen er dan uit?
+* Hoeveel boeken onder de 100 pagina's zijn er toegevoegd tussen 2016 en 2017?
+  * Hoe zit dit met andere jaren en aantal pagina's?
+  * Zijn er meer boeken in het algemeen bijgekomen of enkel dunnere?
+    * Wat is het percentage van dunne boeken bij alle toegevoegde boeken in deze jaren/decennia?
+* Welke locatie heeft de meeste qua aantal/percentage uitgeleende boeken van Annie M.G Schmidt?
+ * Of andere schrijvers natuurlijk
+* Welke uitgevers hebben de meeste science-fiction boeken?
+    * In welke steden staan de echte 'science-fiction' uitgeverijen?
+
+En de gekozen vraag:
+
+* Hoeveel pagina's verschil is er tussen het gemiddelde aantal pagina's van Nederlandstalige boeken met (bijvoorbeeld) het thriller genre en Engelstalige boeken met ditzelfde genre?
+  * Wat is het verschil tussen de minste aantal pagina's in een boek en de meeste?
+    * Welk boeken zijn dit?
+
+Mijn verwachting is dat er niet zo'n sterk verschil moet zijn tussen het gemiddelde aantal pagina's in het Nederlands of Engels als we het over een specifiek genre hebben.
+
+## TODO
+
+- [x] Gather data
+- [x] Do something with the data
+- [x] Return my own data
+- [x] Helpful console
+- [ ] Make it functional!
+- [ ] Create my own objects for easy use
+- [ ] Start over. I know what to do now and I am ashamed of the abomination I've created.
