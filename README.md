@@ -1,6 +1,6 @@
 # Readme
 
-Hoi. Dit is m'n readme.
+Hoi. Dit is m'n readme.  
 Per ongeluk in het Nederlands om een duidelijk cheatsheetje te maken wat duidelijker was voor iedereen.
 
 [Naar de cheatsheet/API uitleg](#cheatsheet)  
@@ -512,3 +512,14 @@ Mijn verwachting is dat er niet zo'n sterk verschil moet zijn tussen het gemidde
 - [ ] Make it functional!
 - [ ] Create my own objects for easy use
 - [ ] Start over. I know what to do now and I am ashamed of the abomination I've created.
+
+
+# Bron/diefstal
+
+Dit zijn de repo's waarvan functionaliteiten schaamteloos van zijn overgenomen.
+Rijk is een held door de oba-api een stuk bruikbaarder te maken.
+Met Folkert-Jan samen heb ik gekeken naar hoe en welke parameters we konden meegeven.
+Zijn manier van de data-parsen heb ik overgenomen.
+
+[Rijk van Zanten zijn OBA-api](https://github.com/rijkvanzanten/node-oba-api)  
+[Folkert-Jan zijn interpertatie van deze OBA-api)(https://github.com/functional-programming/node-oba-api)
