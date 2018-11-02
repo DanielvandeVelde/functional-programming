@@ -523,4 +523,4 @@ Zijn manier van de data-parsen heb ik overgenomen.
 
 Helden:
 [Rijk van Zanten zijn OBA-api](https://github.com/rijkvanzanten/node-oba-api)  
-[Folkert-Jan zijn interpertatie van deze OBA-api)(https://github.com/functional-programming/node-oba-api)
+[Folkert-Jan zijn take op Rijk's OBA-api](https://github.com/functional-programming/node-oba-api)
