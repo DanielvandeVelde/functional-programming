@@ -1,7 +1,8 @@
-# Readme
+# Intro
 
-Hoi. Dit is m'n readme.  
-Per ongeluk in het Nederlands om een duidelijk cheatsheetje te maken wat duidelijker was voor iedereen.
+Hi, this is the readme for my functional programming assignment.
+I wrote most/all of it in Dutch because I wrote a cheatsheet that explained the OBA API to my fellow students.
+To use this application you need a valid OBA Authentication key and either download or clone this repo and use ```npm install``` and run ```node index.js``` in that folder to start all the good stuff.
 
 [Naar de cheatsheet/API uitleg](#cheatsheet)  
 [Naar het onderzoek](#onderzoek)   
@@ -573,6 +574,9 @@ Ik verwachtte uit de boxplot wat duidelijkere data te krijgen door de minimale e
 
 ![Box plot Schets](https://github.com/DanielvandeVelde/functional-programming/blob/master/schets2.jpg "Box plot schets")
 
+De uiteindelijke visualisatie(s) zijn geworden:
+[Observable](https://beta.observablehq.com/@danielvandevelde/stephen-king-gemiddeld-aantal-paginas-per-taal) & een kleine [Bonus!](https://beta.observablehq.com/@danielvandevelde/boeken-van-stephen-king-op-titel) (Maar helaas niet voltooid)
+
 ## Antwoorden(?)
 
 Met een klein aantal entries uit het Spaans (2) lijkt het dat het Spaans toch het meeste pagina's heeft per verhaal. 
@@ -595,7 +599,8 @@ Als we kijken naar meer dan 50 verschillende entries staat Engels met gemiddeld 
 - [x] Return my own data
 - [x] Helpful console
 - [x] Make it functional!
-- [ ] Start over. I know what to do now and I am ashamed of the abomination I've created.
+- [x] Start over. I know what to do now and I am ashamed of the abomination I've created.
+- [ ] Legenda's
 
 
 # Bronnen
